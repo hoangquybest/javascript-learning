@@ -26,7 +26,9 @@ console.log(students2[5]); // "undefined"
 // length
 
 // ************************************************************************************
-// reverse - Đảo ngược các giá trị của mảng
+// reverse - Đảo ngược các giá trị của mảng - two-pointer swap -
+// O(n/2) -> O(n) time complexity
+// O(1) space complexity (không tạo thêm cấu trúc dữ liệu mới)
 // Tại sao khi gõ reverse nó lại không thêm () hay các method nói chung trong VSCode IntelliSense
 // Vì const fn = arr.reverse; // lấy reference của hàm, chưa gọi, muốn gọi thì phải tự thêm ()
 // reverse() không tạo ra mảng mới. - mutable thay đổi mảng ban đầu nên space complexity là O(1) vì không tạo mảng mới chỉ swap trên mảng cũ
@@ -51,7 +53,7 @@ console.log([1, null, 2].join(","));
 // output: "1,,2"
 
 // ************************************************************************************
-// includes
+// includes -
 console.log(students3.includes(undefined)); // true
 console.log(students3.includes(false)); // true
 

@@ -20,7 +20,8 @@ const allNumbers = numbers.filter((num) => true);
 console.log(allNumbers); // [1, 2, 3, 4, 5, 6]
 const noNumbers = numbers.filter((num) => false);
 console.log(noNumbers); // []
-// Lọc các số nguyên tố
+
+// Lọc các số nguyên tố - Số nguyên tố là số tự nhiên lớn hơn 1 và chỉ chia hết cho 1 và chính nó.
 const isPrime = (num) => {
   if (num <= 1) return false;
   for (let i = 2; i <= Math.sqrt(num); i++) {
