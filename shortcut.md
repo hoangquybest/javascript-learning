@@ -49,3 +49,15 @@ Mac: Sau khi đã mở Devtools -> Có thể sử dụng Cmd + Shift + P để c
 ## Phím tắt để có nhiều con trỏ chuột để sửa giống nhau ở nhiều vị trí
 
 - Giữ nhấn option và nhấn chuột trái ở các vị trí mong muốn
+
+## Phím tắt để xoá một dòng
+
+- Cmd + Shift + k
+
+## Phím tắt để xem unsaved files / file chưa được lưu
+
+- cmd + P / Ctrl + P: To see unsaved files
+
+## Nếu mở file trên vscode mà nó in nghiêng nghĩa là nó đang trong chế độ preview
+
+- Để nó không mất khi click vào file khác thì click double vào nó
